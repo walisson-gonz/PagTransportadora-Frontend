@@ -1,44 +1,28 @@
-@font-face {
-    font-family: 'besley400';
-    src: url(/src/assets/fonts/Besley-Regular.ttf);
-}
-
-@font-face {
-    font-family: 'besley600';
-    src: url(/src/assets/fonts/Besley-SemiBold.ttf);
-}
-
-@font-face {
-    font-family: 'robo300';
-    src: url(/src/assets/fonts/RobotoMono-Light.ttf);
-}
-
-@font-face {
-    font-family: 'open300';
-    src: url(/src/assets/fonts/OpenSansCondensed-Light.ttf);
-}
-
-@font-face {
-    font-family: 'monts900';
-    src: url(/src/assets/fonts/Montserrat-Black.ttf);
-}
-
-/* .fs16 {
-    font-family: 'robo300';
-    font-size: 16px;
-} */
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
 .fs16 {
-    font-family: 'open300';
+    font-family: 'Oswald', sans-serif;
     font-size: 16px;
 }
 
-.fs35{
-    font-family:fantasy;
+.fs35 {
+    font-family: 'Montserrat', sans-serif;
     font-size: 35px;
 }
 
-.fs20{
-    font-family:monospace;
-    font-size: 30px;
+.fs20 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+.ffRale {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+}
+
+.footer{
+    font-family: 'Mukta', sans-serif;
+    color: #fff;
 }
