@@ -1,1 +1,44 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'besley400';
+    src: url(/src/assets/fonts/Besley-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'besley600';
+    src: url(/src/assets/fonts/Besley-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'robo300';
+    src: url(/src/assets/fonts/RobotoMono-Light.ttf);
+}
+
+@font-face {
+    font-family: 'open300';
+    src: url(/src/assets/fonts/OpenSansCondensed-Light.ttf);
+}
+
+@font-face {
+    font-family: 'monts900';
+    src: url(/src/assets/fonts/Montserrat-Black.ttf);
+}
+
+/* .fs16 {
+    font-family: 'robo300';
+    font-size: 16px;
+} */
+
+.fs16 {
+    font-family: 'open300';
+    font-size: 16px;
+}
+
+.fs35{
+    font-family:fantasy;
+    font-size: 35px;
+}
+
+.fs20{
+    font-family:monospace;
+    font-size: 30px;
+}
